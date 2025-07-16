@@ -1,2 +1,5 @@
-import os
-import bot  # si tu lógica está en bot.py
+import discord
+from discord.ext import commands
+
+intents = discord.Intents.default()
+bot = discord.Bot(intents=intents)  # ✅ Esto sí funciona con py-cord 2.x
