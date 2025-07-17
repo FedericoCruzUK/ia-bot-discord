@@ -1,2 +1,2 @@
-py-cord==2.4.1
+discord.py==2.2.2
 openai==1.11.1
